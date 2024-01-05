@@ -29,6 +29,7 @@ function TodoHead () {
         <TodoHeadBlock>
             <h1>2024.01.05</h1>
         <div className="day">Friday</div>
+        <div className="tasks-left">3 tasks left</div>
         </TodoHeadBlock>
     )
 }
