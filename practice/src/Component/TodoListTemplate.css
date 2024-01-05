@@ -1,12 +1,18 @@
 .todo-list-template{
     background: white;
     width: 512px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 0 auto;
-    margin-top: 4rem;
+    height: 768px;
+    border-radius: 16px;
+    position: relative;
 }
 .title {
     padding: 2rem;
+    margin-top:  96px;
+    margin-bottom: 32px;
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
     font-size: 2.5rem;
     text-align: center;
     font-weight: 100;
